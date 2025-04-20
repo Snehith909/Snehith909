@@ -2,4 +2,4 @@
 
 1) simple calculator using user-defined functions.
 
-2) simple rock, paper or scissors game using if-else control statement and random module.
+2) simple rock, paper or scissors game using if-else, control statement and random module.
