@@ -39,7 +39,7 @@ while True:
  b = int(input("Enter 2st Number :"))
  
  if b == 0:
- print("Zeroooooooo can't be divided motherfucker !!!!")
+ print("Zeroooooooo can't be divided  !!!!")
  continue
  divi(a,b)
  elif choice == 5:
