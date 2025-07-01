@@ -1,4 +1,4 @@
-## Beginner level Simple python projects.
+## 1) Beginner level Simple python projects.
 
 1) simple calculator using user-defined functions.
 
@@ -6,7 +6,7 @@
 
 3) simple random password generator using if-else control statement and random module.
 
-## DSA in Python 🐍
+## 2) DSA in Python 🐍
 1) Singly Linked List 
 
   This project implements a basic **Singly Linked List (SLL)** using Python, with the following operations:
