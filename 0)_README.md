@@ -42,6 +42,22 @@ This project implements a **Doubly Linked List (DLL)** from scratch using Python
 - Delete last node
 - Search for a value
 - Print the list
+
+## 3) 🌀 Circular Linked List (CLL)
+
+This project implements a Circular Linked List in Python using a last pointer for efficient operations. It supports core functionalities like insertion, deletion, search, and traversal.
+
+✅ Features:
+
+Insert at start or end
+
+Insert after a specific node
+
+Delete from start, end, or by value
+
+Search for an item
+
+Print the list
  
 
 
