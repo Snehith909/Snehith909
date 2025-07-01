@@ -1,0 +1,82 @@
+class Node:
+    def __init__(self,item=None,next=None):
+        self.item = item
+        self.next = next
+
+class SLL:
+    def __init__(self,start=None):
+        self.start = start
+    
+    def is_empty(self):
+        return self.start == None
+    
+    def insert_at_start(self,data):
+        n = Node(data,self.start)
+        self.start = n
+       
+    def insert_at_last(self,data):
+        n = Node(data)
+        if not self.start is None:
+            temp = self.start
+            while temp.next != None:
+                temp = temp.next
+            temp.next = n
+        else:
+            self.start = n
+        
+    def search(self,data):
+        if not self.start is None:
+            temp = self.start
+            while temp != None:
+                if temp.item == data:
+                    return temp
+                temp = temp.next
+        return None
+    
+    def insert_after(self,temp,data):
+        if temp is not None:
+            n = Node(data,temp.next)
+            temp.next = n
+      
+    def print(self):
+        temp = self.start
+        while temp!=None:
+            print(temp.item,end = " ")
+            temp = temp.next
+    
+    def delete_start(self):
+        if self.start is None:
+            pass
+        elif self.start.next == None: #
+            self.start = None
+        else:
+            self.start = self.start.next
+
+
+    def delete_last(self):
+        if self.start is None:
+            pass
+        elif self.start.next == None:
+            self.start = None
+        else:
+            temp = self.start
+            while temp.next.next != None:
+                temp = temp.next
+            temp.next = None
+        
+
+    def delete_middle(self,data):
+        if self.start is not None:
+            temp = self.start
+            while temp.next.item != data:
+                temp = temp.next
+            temp.next = temp.next.next
+        return None   
+sll = SLL()
+sll.insert_at_start(20)
+sll.insert_at_last(30)
+sll.insert_at_start(28) 
+sll.insert_at_last(35)
+sll.insert_after(sll.search(30),55)
+sll.delete_middle(30)
+sll.print()          
