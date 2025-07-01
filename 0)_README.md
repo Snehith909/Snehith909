@@ -49,15 +49,15 @@ This project implements a Circular Linked List in Python using a last pointer fo
 
 ✅ Features:
 
- -Insert at start or end
+ - Insert at start or end
 
- -Insert after a specific node
+ - Insert after a specific node
 
- -Delete from start, end, or by value
+ - Delete from start, end, or by value
 
- -Search for an item
+ - Search for an item
 
- -Print the list
+ - Print the list
  
 
 
