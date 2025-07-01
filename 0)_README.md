@@ -6,7 +6,8 @@
 
 3) simple random password generator using if-else control statement and random module.
 
-4) Singly Linked List in Python 🐍
+## DSA in Python 🐍
+1) Singly Linked List in Python 🐍
 
   This project implements a basic **Singly Linked List (SLL)** using Python, with the following operations:
 
@@ -22,7 +23,7 @@
   - Print the list
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-5)  Doubly Linked List in Python 🐍
+2)  Doubly Linked List in Python 🐍
 
 This project implements a **Doubly Linked List (DLL)** from scratch using Python. It supports standard operations like insertion, deletion, searching, and traversal.
 
