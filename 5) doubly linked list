@@ -1,0 +1,79 @@
+class Node:
+    def __init__(self,prev=None,item=None,next=None):
+        self.prev = prev
+        self.item = item
+        self.next = next
+
+class DLL:
+    def __init__(self,start=None):
+        self.start = start
+    
+    def is_empty(self):
+        return self.start == None
+    
+    def insert_at_start(self,data):
+        n = Node(None,data,self.start)
+        if self.start != None:
+            self.start.prev = n
+        self.start = n
+        
+    def insert_at_last(self,data):
+        temp = self.start
+        if self.start is not  None:
+            while temp.next is not None:
+                temp = temp.next
+            n = Node(temp,data,None)
+            if self.start is None:
+                self.start = n 
+            else:
+                temp.next = n
+
+    def search(self,data):
+        temp = self.start
+        while temp != None:
+            if temp.item == data:
+                return temp
+            temp = temp.next
+        return None 
+    def insert_after(self,temp,data):
+        if temp is not None:
+            n = Node(temp,data,temp.next)
+            if temp.next is not None:
+                temp.next.prev = n
+            temp.next = n
+        
+    def print(self):
+        temp = self.start
+        while temp != None:
+            print(temp.item,end=" ")
+            temp = temp.next
+
+    def delete_first(self):
+        if self.start != None:
+            self.start = self.start.next
+            if self.start is not None:
+                self.start.prev = None
+        
+    def delete_last(self):
+        temp = self.start
+        if self.start != None:
+            while temp.next.next != None:
+                temp = temp.next
+            temp.next = None
+        elif self.start.next == None:
+            self.start = None
+        else:
+            self.start = None
+    
+#driver code
+
+dll = DLL()
+dll.insert_at_start(20)
+dll.insert_at_last(90)
+dll.insert_at_start(10)
+dll.insert_at_start(60)
+dll.insert_after(dll.search(20),30)
+dll.delete_last()
+dll.print()
+ 
+            
