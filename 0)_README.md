@@ -21,21 +21,8 @@
   - Search for a value
   - Print the list
 
- ## 🧪 Sample Usage
-
-  ```python
-  sll = SLL()
-  sll.insert_at_last(10)
-  sll.insert_at_last(20)
-  sll.insert_at_last(30)
-  sll.insert_at_last(40)
-  sll.insert_at_last(50)
-
-  sll.delete_middle()  # deletes 30
-
-sll.print()  # Output: 10 20 40 50
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-5)  Doubly Linked List in Python
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+5)  Doubly Linked List in Python 🐍
 
 This project implements a **Doubly Linked List (DLL)** from scratch using Python. It supports standard operations like insertion, deletion, searching, and traversal.
 
@@ -54,13 +41,7 @@ This project implements a **Doubly Linked List (DLL)** from scratch using Python
 - Delete last node
 - Search for a value
 - Print the list
+ 
 
- 🧪 Example Usage
 
-```python
-dll = DLL()
-dll.insert_at_start(20)
-dll.insert_at_start(10)
-dll.insert_at_last(30)
-dll.print()  # Output: 10 20 30
 
