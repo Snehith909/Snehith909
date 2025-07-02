@@ -60,7 +60,7 @@ This project implements a Circular Linked List in Python using a last pointer fo
  - Print the list
 
 
-   #### 4) Circular Doubly Linked List i
+#### 4) Circular Doubly Linked List i
 This project implements a Circular Doubly Linked List (CDLL) data structure using Python. It supports common operations such as insertion, deletion, searching, and displaying the list.
 
 🔁 What is a CDLL?
