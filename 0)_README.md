@@ -88,6 +88,22 @@ Each node contains data, a pointer to the previous node, and a pointer to the ne
 - Delete a node by value
 
 - Display all elements in the list
+
+####  Stack Data Structure in Python
+This repository contains a simple implementation of a Stack data structure using Python lists.
+ 
+🚀 Features
+ - is_empty(): Checks whether the stack is empty.
+
+ - push(data): Adds an element to the top of the stack.
+
+ - pop(): Removes and returns the top element of the stack. Raises an error if the stack is empty.
+
+ - peek(): Returns the top element without removing it. Raises an error if the stack is empty.
+
+ - size(): Returns the number of elements in the stack.
+
+
  
 
 
