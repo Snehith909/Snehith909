@@ -43,6 +43,7 @@ This project implements a **Doubly Linked List (DLL)** from scratch using Python
 - Delete last node
 - Search for a value
 - Print the list
+  https://github.com/Snehith909/Snehith909/blob/e9f60c01c1eed97aa0dd3f4c80aaae957d4ab774/5)%20doubly%20linked%20list
 
 #### 3) 🌀 Circular Linked List (CLL)
 
@@ -59,6 +60,7 @@ This project implements a Circular Linked List in Python using a last pointer fo
  - Search for an item
 
  - Print the list
+   https://github.com/Snehith909/Snehith909/blob/e9f60c01c1eed97aa0dd3f4c80aaae957d4ab774/6)%20circular%20linked%20list
 
 
 #### 4) Circular Doubly Linked List i
@@ -89,6 +91,7 @@ Each node contains data, a pointer to the previous node, and a pointer to the ne
 - Delete a node by value
 
 - Display all elements in the list
+https://github.com/Snehith909/Snehith909/blob/e9f60c01c1eed97aa0dd3f4c80aaae957d4ab774/7)%20circular%20doubly%20linked%20list
 
 ####  5)  Stack 
 This repository contains a simple implementation of a Stack data structure using Python lists.
@@ -104,6 +107,8 @@ This repository contains a simple implementation of a Stack data structure using
 
  - size(): Returns the number of elements in the stack.
 
+   https://github.com/Snehith909/Snehith909/blob/e9f60c01c1eed97aa0dd3f4c80aaae957d4ab774/8))%20Stack
+
 #### 6) Stack Implementation Using Singly Linked List  
 This project contains a simple implementation of a Stack data structure using a singly linked list in Python. The Stack supports common operations like push(), pop(), peek(), and displaying all elements.
 
@@ -113,6 +118,8 @@ This project contains a simple implementation of a Stack data structure using a 
  - peek():	Returns the top element without removing it.
  - is_empty():	Checks whether the stack is empty.
  - print_all(): Prints all elements of the stack (top to bottom).
+
+   https://github.com/Snehith909/Snehith909/blob/e9f60c01c1eed97aa0dd3f4c80aaae957d4ab774/9)%20Stack%20using%20singly%20linked%20list
 
 
  
