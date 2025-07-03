@@ -1,0 +1,55 @@
+ class Node:
+    def __init__(self,item=None,next=None):
+        self.item = item
+        self.next = next
+    
+class Stack:
+    def __init__(self,start=None):
+        self.start = start
+    
+    def is_empty(self):
+        return self.start == None
+    
+    def push(self,data):
+        n = Node(data)
+        if self.start != None:
+            n.next = self.start
+            self.start = n
+        else:
+            self.start = n
+    
+    def pop(self):
+         
+        if self.start != None:
+            data = self.start.item 
+            self.start = self.start.next
+            return data 
+        else:
+            self.start = None
+    
+    def peek(self):
+        if self.start != None:
+            return self.start.item 
+        else:
+            return None
+     
+    def print_all(self):
+        if self.start != None:
+            temp = self.start
+            while temp != None:
+                print(temp.item,end=" ")
+                temp = temp.next 
+        return None 
+s1 = Stack()
+s1.push(10)
+s1.push(10)
+s1.push(20)
+s1.push(30)
+s1.push(80)
+s1.print_all()
+print("\nTop element is",s1.peek())
+print("Removed elemenst is ",s1.pop())
+print("Top element is",s1.peek())
+s1.print_all() 
+ 
+
