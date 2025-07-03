@@ -89,7 +89,7 @@ Each node contains data, a pointer to the previous node, and a pointer to the ne
 
 - Display all elements in the list
 
-####  5)Stack 
+####  5)  Stack 
 This repository contains a simple implementation of a Stack data structure using Python lists.
  
 🚀 Features
