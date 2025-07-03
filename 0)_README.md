@@ -103,6 +103,16 @@ This repository contains a simple implementation of a Stack data structure using
 
  - size(): Returns the number of elements in the stack.
 
+#### 6) Stack Implementation Using Singly Linked List  
+This project contains a simple implementation of a Stack data structure using a singly linked list in Python. The Stack supports common operations like push(), pop(), peek(), and displaying all elements.
+
+ 🚀 Features
+ - push(data):	Adds an element to the top of the stack.
+ - pop():	Removes and returns the top element of the stack.
+ - peek():	Returns the top element without removing it.
+ - is_empty():	Checks whether the stack is empty.
+ - print_all(): Prints all elements of the stack (top to bottom).
+
 
  
 
