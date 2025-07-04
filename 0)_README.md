@@ -121,7 +121,7 @@ This project contains a simple implementation of a Stack data structure using a 
 
    https://github.com/Snehith909/Snehith909/blob/e9f60c01c1eed97aa0dd3f4c80aaae957d4ab774/9)%20Stack%20using%20singly%20linked%20list
 
-#### Queue 
+#### 7) Queue 
 This project implements a Queue data structure using Python lists.
 A Queue follows the FIFO (First In, First Out) principle, where the first element added is the first one removed.
 
