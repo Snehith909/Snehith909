@@ -1,4 +1,4 @@
-class QUEUE:
+ class QUEUE:
     def __init__(self):
         self.item = []
          
@@ -9,7 +9,8 @@ class QUEUE:
         self.item.append(data)
     def dequeue(self):
         if not self.is_empty():
-            self.item.pop(0)
+            a = self.item.pop(0)
+            print("Removed elements",a)
         else:
             raise IndexError("Queue is empty")
     def get_front(self):
@@ -23,11 +24,17 @@ class QUEUE:
         else:
             raise IndexError("Queue is empty")
     
-    def print_queue(self):
+    def print_queue_initial(self):
         if not self.is_empty():
-            print(self.item)
+            print("Initial elements",self.item)
         else:
             print("Queue is empty")
+        
+    def print_queue_final(self):
+        if not self.is_empty():
+            print("Final elements",self.item)
+        else:
+             print("Queue is empty")
     def size(self):
         return len(self.item)
     
@@ -38,7 +45,7 @@ que.enqueue(30)
 que.enqueue(40)
 que.enqueue(50)
 que.enqueue(60)
-que.print_queue()
+que.print_queue_initial()
 que.dequeue()
 que.dequeue()
  
@@ -52,7 +59,7 @@ try:
 except IndexError as e:
     print("Error:", e)
 
-que.print_queue()
-print(que.size())
+que.print_queue_final()
+print("Size",que.size())
  
  
