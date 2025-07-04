@@ -1,0 +1,44 @@
+class DEQUE:
+    def __init__(self):
+        self.item = []
+
+    def is_empty(self):
+        return len(self.item) == 0
+
+    def insert_at_front(self,data):
+        self.item.insert(0,data)
+
+    def insert_at_rear(self,data):
+        self.item.append(data)
+
+    def delete_front(self):
+        if not self.is_empty():
+            return self.item.pop(0)
+        else:
+            raise IndexError("Empty")
+        
+    def delete_rear(self):
+        if not self.is_empty():
+            return self.item.pop(-1)
+        else:
+            raise IndexError("Empty")
+        
+    def size(self):
+        return len(self.item)
+    
+    def print(self):
+        if not self.is_empty():
+          print(self.item)
+        else:
+            raise IndexError("Empty")
+    
+deq = DEQUE()
+deq.insert_at_front(50)
+deq.insert_at_front(10)
+deq.insert_at_front(20)
+deq.insert_at_rear(30)
+deq.print()
+print(deq.delete_front())
+print(deq.delete_rear())
+print(deq.size())
+deq.print()
