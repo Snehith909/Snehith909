@@ -146,7 +146,7 @@ https://github.com/Snehith909/Snehith909/blob/5132573b6a89ce97d28333b7060b39443c
 This repository contains a simple Python implementation of a **Deque (Double-Ended Queue)** using a list.  
 It supports insertion and deletion from both the front and rear ends.
 
----
+
 
  🚀 Features
 
@@ -158,7 +158,7 @@ It supports insertion and deletion from both the front and rear ends.
 - Get Size of the Deque
 - Display the Deque Elements
 
----
+
 https://github.com/Snehith909/Snehith909/blob/ceae438a2055438929f0fee0c34303b5923fe23f/10)%20Queue
 
 
