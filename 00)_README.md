@@ -159,6 +159,25 @@ It supports insertion and deletion from both the front and rear ends.
 - Display the Deque Elements
 
 
+https://github.com/Snehith909/Snehith909/blob/6d5c2b8efe25f97e92ce97b6760fe02e3b61ba55/12)%20Deque%20doubly%20link
+
+
+#### 9) DOUBLEDEQUE - Python Double-Ended Queue (Deque)
+This project implements a Double-Ended Queue (Deque) using a Doubly Linked List in Python.
+A deque allows insertion and deletion of elements from both the front and rear ends efficiently.
+
+🔧 Features
+ - Insert at front (insert_at_first)
+
+ - Insert at rear (insert_at_rear)
+
+ - Delete from front (delete_at_front)
+
+ - Delete from rear (delete_at_rear)
+
+ - Display all elements (print_all)
+
+ - Check if deque is empty (is_empty)
 https://github.com/Snehith909/Snehith909/blob/ceae438a2055438929f0fee0c34303b5923fe23f/10)%20Queue
 
 
