@@ -139,7 +139,7 @@ A Queue follows the FIFO (First In, First Out) principle, where the first elemen
 
 ✅ Print the queue elements
 
-https://github.com/Snehith909/Snehith909/blob/7a63913f52e11431b1dc7993eaef303bc6b56a46/10)%20Queue
+https://github.com/Snehith909/Snehith909/blob/5132573b6a89ce97d28333b7060b39443c462586/10)%20Queue
 
 
 
