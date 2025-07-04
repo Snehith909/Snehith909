@@ -1,0 +1,65 @@
+class Node:
+    def __init__(self, prev=None, item=None, next=None):
+        self.prev = prev
+        self.item = item
+        self.next = next
+
+class DOUBLEDEQUE:
+    def __init__(self):
+        self.front = None
+        self.rear = None
+
+    def is_empty(self):
+        return self.front is None
+
+    def insert_at_first(self, data):
+        n = Node(None, data, self.front)
+        if self.is_empty():
+            self.rear = n
+        else:
+            self.front.prev = n
+        self.front = n
+
+    def insert_at_rear(self, data):
+        n = Node(self.rear, data, None)
+        if self.is_empty():
+            self.front = n
+        else:
+            self.rear.next = n
+        self.rear = n
+
+    def delete_at_front(self):
+        if self.is_empty():
+            raise IndexError("Deque is empty")
+        elif self.front == self.rear:   
+            self.front = None
+            self.rear = None
+        else:
+            self.front = self.front.next
+            self.front.prev = None
+
+    def delete_at_rear(self):
+        if self.is_empty():
+            raise IndexError("Deque is empty")
+        elif self.front == self.rear:   
+            self.front = None
+            self.rear = None
+        else:
+            self.rear = self.rear.prev
+            self.rear.next = None
+
+    def print_all(self):
+        temp = self.front
+        while temp:
+            print(temp.item, end=" ")
+            temp = temp.next
+        print()
+doublede = DOUBLEDEQUE()
+doublede.insert_at_first(10)
+doublede.insert_at_first(20)
+doublede.insert_at_first(30)
+doublede.insert_at_first(40)
+doublede.print_all()   
+doublede.delete_at_front()  
+doublede.delete_at_rear()    
+doublede.print_all()  
