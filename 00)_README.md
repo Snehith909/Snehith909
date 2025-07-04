@@ -148,7 +148,7 @@ It supports insertion and deletion from both the front and rear ends.
 
 ---
 
-## 🚀 Features
+ 🚀 Features
 
 - Insert at Front
 - Insert at Rear
