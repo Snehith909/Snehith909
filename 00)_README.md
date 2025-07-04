@@ -127,17 +127,17 @@ A Queue follows the FIFO (First In, First Out) principle, where the first elemen
 
  
 🚀 Features
-✅ Enqueue (add element to rear)
+- Enqueue (add element to rear)
 
-✅ Dequeue (remove element from front)
+- Dequeue (remove element from front)
 
-✅ Get front and rear elements
+- Get front and rear elements
 
-✅ Check if queue is empty
+- Check if queue is empty
 
-✅ Get the size of the queue
+- Get the size of the queue
 
-✅ Print the queue elements
+- Print the queue elements
 
 https://github.com/Snehith909/Snehith909/blob/5132573b6a89ce97d28333b7060b39443c462586/10)%20Queue
 
