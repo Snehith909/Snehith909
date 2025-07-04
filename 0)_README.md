@@ -121,8 +121,27 @@ This project contains a simple implementation of a Stack data structure using a 
 
    https://github.com/Snehith909/Snehith909/blob/e9f60c01c1eed97aa0dd3f4c80aaae957d4ab774/9)%20Stack%20using%20singly%20linked%20list
 
+#### Queue 
+This project implements a Queue data structure using Python lists.
+A Queue follows the FIFO (First In, First Out) principle, where the first element added is the first one removed.
 
  
+🚀 Features
+✅ Enqueue (add element to rear)
+
+✅ Dequeue (remove element from front)
+
+✅ Get front and rear elements
+
+✅ Check if queue is empty
+
+✅ Get the size of the queue
+
+✅ Print the queue elements
+
+https://github.com/Snehith909/Snehith909/blob/7a63913f52e11431b1dc7993eaef303bc6b56a46/10)%20Queue
+
+
 
 
 
