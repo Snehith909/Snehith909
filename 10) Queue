@@ -5,9 +5,9 @@
     def is_empty(self):
         return len(self.item) == 0
     
-    def enqueue(self,data):
+    def enque(self,data):
         self.item.append(data)
-    def dequeue(self):
+    def deque(self):
         if not self.is_empty():
             a = self.item.pop(0)
             print("Removed elements",a)
@@ -39,15 +39,15 @@
         return len(self.item)
     
 que = QUEUE()
-que.enqueue(10)
-que.enqueue(20)
-que.enqueue(30)
-que.enqueue(40)
-que.enqueue(50)
-que.enqueue(60)
+que.enque(10)
+que.enque(20)
+que.enque(30)
+que.enque(40)
+que.enque(50)
+que.enque(60)
 que.print_queue_initial()
-que.dequeue()
-que.dequeue()
+que.deque()
+que.deque()
  
 try:
     print("Top element:", que.get_front())
