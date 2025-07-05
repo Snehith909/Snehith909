@@ -180,7 +180,18 @@ A deque allows insertion and deletion of elements from both the front and rear e
  - Check if deque is empty (is_empty)
 https://github.com/Snehith909/Snehith909/blob/ceae438a2055438929f0fee0c34303b5923fe23f/10)%20Queue
 
+#### 10) Priority Queue in Python
+This is a basic implementation of a Priority Queue using Python lists. In this queue, elements are inserted based on their priority, with lower priority numbers served first.
 
+🚀 Features
+ - Insert elements with a given priority.
 
+ - Remove elements with the highest priority (lowest number).
+
+ - Check if the queue is empty.
+
+ - Get the current size of the queue.
+
+https://github.com/Snehith909/Snehith909/blob/f335cceadc333d028fea0654bee140d810c29571/13)%20Priority_Queue
 
 
