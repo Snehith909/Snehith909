@@ -1,0 +1,29 @@
+class PriorityQueue:
+    def __init__(self):
+        self.item = []
+    
+    def is_empty(self):
+        return len(self.item) == 0
+    
+    def push(self,data,priority):
+        index = 0
+        while index<len(self.item) and self.item[index][1] <= priority:
+            index+=1
+        return self.item.insert(index,(data,priority))
+    
+    def pop(self):
+        if not self.is_empty():
+         return self.item.pop(0)[0]
+        else:
+            raise IndexError("Empty")
+        
+    def size(self):
+        return len(self.item)
+    
+priorityqueue = PriorityQueue()
+priorityqueue.push("ABC",0)
+priorityqueue.push("EFG",2)
+priorityqueue.push("KLM",5)
+priorityqueue.push("PQR",3)
+while not priorityqueue.is_empty():
+    print(priorityqueue.pop())
