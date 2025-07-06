@@ -52,10 +52,7 @@ while True:
         break
          
         
-    elif user_input == "1":
-      
-     print("Your Score  ",user_point)
-     print("Computer_Score",computer_point)
+    
     
     else:
         print("Invalid user input")
