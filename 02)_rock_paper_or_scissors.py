@@ -2,15 +2,15 @@ import random
 user_point = 0
 computer_point = 0
 
-print("     Rock")
-print("     Paper")
-print("     Scissors")
-print("     Exit")
-print("     If you entered wrong input Than you are Gayyyy!")
+print("rock")
+print("paper")
+print("scissors")
+print("exit")
+
 
 while True:
     option = ["rock","paper","scissors"]
-    user_input = input("Enter Rock paper Scissors or Exit: ")
+    user_input = input("Enter rock paper scissors or exit: ")
     computer_input = random.choice(option)
     if user_input == "rock":
         if computer_input == "rock":
@@ -46,6 +46,8 @@ while True:
          
              
     elif user_input == "exit":
+        print("Computer points :",computer_point)
+        print("User point :",user_point)
         print("Goooood bye !")
         break
          
