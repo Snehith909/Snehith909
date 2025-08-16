@@ -194,4 +194,30 @@ This is a basic implementation of a Priority Queue using Python lists. In this q
 
 https://github.com/Snehith909/Snehith909/blob/f335cceadc333d028fea0654bee140d810c29571/13)%20Priority_Queue
 
+🌳 Binary Search Tree (BST) in Python
 
+This project implements a Binary Search Tree (BST) in Python.
+A BST is a hierarchical data structure in which each node has at most two children,
+and the left child contains values smaller than the parent node, while the right child contains values greater.
+
+🔧 Features
+
+- Insert a new node (insert)
+
+- Search for a node (search)
+
+- Delete a node with all cases handled (delete)
+
+- Find minimum value (min_value)
+
+- Find maximum value (max_value)
+
+- Inorder traversal (inorder)
+
+- Preorder traversal (preorder)
+
+- Postorder traversal (postorder)
+
+- Calculate size of tree (size)
+
+  https://github.com/Snehith909/Snehith909/blob/bc32aed883b678bea0b35f102f085ffb7bc2a0ef/14)%20BST
