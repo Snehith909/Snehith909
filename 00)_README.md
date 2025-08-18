@@ -194,7 +194,7 @@ This is a basic implementation of a Priority Queue using Python lists. In this q
 
 https://github.com/Snehith909/Snehith909/blob/f335cceadc333d028fea0654bee140d810c29571/13)%20Priority_Queue
 
-🌳 Binary Search Tree (BST) in Python
+#### 11) 🌳Binary Search Tree (BST) in Python
 
 This project implements a Binary Search Tree (BST) in Python.
 A BST is a hierarchical data structure in which each node has at most two children,
@@ -221,3 +221,18 @@ and the left child contains values smaller than the parent node, while the right
 - Calculate size of tree (size)
 
   https://github.com/Snehith909/Snehith909/blob/bc32aed883b678bea0b35f102f085ffb7bc2a0ef/14)%20BST
+
+  ---
+ #### 12) Bubble Sort and Modified Bubble Sort
+## 📌 Bubble Sort
+- Works by repeatedly swapping adjacent elements if they are in the wrong order.
+- Time Complexity: **O(n²)** (worst & average case).
+- Space Complexity: **O(1)** (in-place sorting).
+
+## 📌 Modified Bubble Sort
+- Same as Bubble Sort but optimized with a **flag**.
+- If no elements are swapped during a pass, the algorithm stops early.
+- Best Case Time Complexity: **O(n)** (when the array is already sorted).
+- Space Complexity: **O(1)**.
+
+---
