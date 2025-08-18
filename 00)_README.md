@@ -224,15 +224,6 @@ and the left child contains values smaller than the parent node, while the right
 
   ---
  #### 12) Bubble Sort and Modified Bubble Sort
-## 📌 Bubble Sort
-- Works by repeatedly swapping adjacent elements if they are in the wrong order.
-- Time Complexity: **O(n²)** (worst & average case).
-- Space Complexity: **O(1)** (in-place sorting).
-
-## 📌 Modified Bubble Sort
-- Same as Bubble Sort but optimized with a **flag**.
-- If no elements are swapped during a pass, the algorithm stops early.
-- Best Case Time Complexity: **O(n)** (when the array is already sorted).
-- Space Complexity: **O(1)**.
-
----
+ This repository demonstrates two sorting algorithms implemented in Python:  
+1. **Bubble Sort** – A simple comparison-based sorting algorithm.  
+2. **Modified Bubble Sort** – An optimized version that stops early if the array becomes sorted before all passes are completed.  
